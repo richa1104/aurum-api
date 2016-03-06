@@ -1,0 +1,7 @@
+users:
+    resource: Aurum\CrmBundle\Controller\UsersController
+    type:     annotation
+
+sessions:
+    resource: Acme\DemoBundle\Controller\SessionsController
+    type:     annotation

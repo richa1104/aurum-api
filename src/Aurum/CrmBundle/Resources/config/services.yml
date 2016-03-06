@@ -1,0 +1,12 @@
+parameters:
+   aurum_crm.user.class: Aurum\CrmBundle\Manager\UserManager
+
+services:
+#    aurum_crm.example:
+#        class: %aurum_crm.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+      aurum_api.user_manager:
+        class: Aurum\CrmBundle\Manager\UserManager
+        arguments:
+        - @doctrine
